@@ -1,0 +1,92 @@
+
+> chairchime-scheduling-core@0.1.0 test
+> node scripts/test.mjs
+
+TAP version 13
+# Subtest: twenty concurrent bookings have one winner and one local event
+ok 1 - twenty concurrent bookings have one winner and one local event
+  ---
+  duration_ms: 55.08625
+  type: 'test'
+  ...
+# Subtest: retry recovers committed booking during calendar failure; changed payload rejected
+ok 2 - retry recovers committed booking during calendar failure; changed payload rejected
+  ---
+  duration_ms: 4.65375
+  type: 'test'
+  ...
+# Subtest: duration and buffer block overlap but allow the exact adjacent boundary
+ok 3 - duration and buffer block overlap but allow the exact adjacent boundary
+  ---
+  duration_ms: 8.175875
+  type: 'test'
+  ...
+# Subtest: current baseline intentionally permits only one appointment per shop at a time
+ok 4 - current baseline intentionally permits only one appointment per shop at a time
+  ---
+  duration_ms: 4.029
+  type: 'test'
+  ...
+# Subtest: unavailable calendar and busy fixture do not create records
+ok 5 - unavailable calendar and busy fixture do not create records
+  ---
+  duration_ms: 3.17825
+  type: 'test'
+  ...
+# Subtest: hours, confirmation and unknown business are enforced
+ok 6 - hours, confirmation and unknown business are enforced
+  ---
+  duration_ms: 2.835416
+  type: 'test'
+  ...
+# Subtest: manual block prevents booking and retry cannot revive a cancelled block
+ok 7 - manual block prevents booking and retry cannot revive a cancelled block
+  ---
+  duration_ms: 5.381041
+  type: 'test'
+  ...
+# Subtest: failed move rolls back; successful move retains original price and duration
+ok 8 - failed move rolls back; successful move retains original price and duration
+  ---
+  duration_ms: 4.979792
+  type: 'test'
+  ...
+# Subtest: cancel is retry-safe and isolated to the business
+ok 9 - cancel is retry-safe and isolated to the business
+  ---
+  duration_ms: 4.363291
+  type: 'test'
+  ...
+# Subtest: service retirement rejects new bookings while saved result is recoverable
+ok 10 - service retirement rejects new bookings while saved result is recoverable
+  ---
+  duration_ms: 3.829042
+  type: 'test'
+  ...
+# Subtest: closed day and breaks remove corresponding availability
+ok 11 - closed day and breaks remove corresponding availability
+  ---
+  duration_ms: 6.379042
+  type: 'test'
+  ...
+# Subtest: range results preserve business-local boundaries and tenant isolation
+ok 12 - range results preserve business-local boundaries and tenant isolation
+  ---
+  duration_ms: 4.263375
+  type: 'test'
+  ...
+# Subtest: HTTP app supports booking and reconnect persistence; rejects cross-origin writes
+ok 13 - HTTP app supports booking and reconnect persistence; rejects cross-origin writes
+  ---
+  duration_ms: 30.102084
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 263.94975

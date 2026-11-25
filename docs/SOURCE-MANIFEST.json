@@ -1,0 +1,38 @@
+[
+  {
+    "source": "src/scheduling.ts",
+    "destination": "src/scheduling.ts",
+    "sourceSha256": "f65bda8d435b865d46bd5da49955b68596547aa8a098ec327d6e7fd71afb7acd",
+    "adapted": true
+  },
+  {
+    "source": "src/owner.ts",
+    "destination": "src/owner.ts",
+    "sourceSha256": "8e57d50d11b8f0e59197898d15aefe2816d6c6f9aae0995cc66d285a3627f1f9",
+    "adapted": true
+  },
+  {
+    "source": "src/settings.ts",
+    "destination": "src/settings.ts",
+    "sourceSha256": "785ced6062a82f31456f76c1bdf548e8b6386a0828dcb15d865857b71a009423",
+    "adapted": true
+  },
+  {
+    "source": "public/schedule.js",
+    "destination": "public/schedule.js",
+    "sourceSha256": "2091adefd9eda1b2a09c49aee5e4425cc2ce72d6828cd40ec71d0c6e175e7c95",
+    "adapted": false
+  },
+  {
+    "source": "public/schedule-data.js",
+    "destination": "public/schedule-data.js",
+    "sourceSha256": "63a769272f622198fcd93386c96dedb19bb174b9ace8ac7214e55924a1d4521b",
+    "adapted": false
+  },
+  {
+    "source": "public/schedule.css",
+    "destination": "public/schedule.css",
+    "sourceSha256": "7a1fb47f2e5b08cc8515ae3389723dae0d93b5b933307b38a329b4ec0f3c5513",
+    "adapted": false
+  }
+]
